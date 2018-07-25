@@ -12,4 +12,5 @@ few concepts
 1. public static void main(String[] args)  is the entry point of any java program.
 2. Source File name and class name may be same and may be different, but when you are compiling your program, compile your program with source file name & while running a program use the main method class.
 3. In the Lab1.java example, compile with command "javac Lab1.java" & while running the program use the command  "java Hello".
-4. JRE will try to load the Hello class and will try to find main method, if main method is not available in the class, then we will get "Error: Could not find or load main class Lab1" problem .
+4. JRE will try to load and run the Hello class firstly it will try to find main method, if main method is not available in the class, then we will get "Error: Could not find or load main class Lab1" problem, if method is there with the similar syntax as point 1, then it will execute successfully.
+5. It will produce o/p - welcome to java language
